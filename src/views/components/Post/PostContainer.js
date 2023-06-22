@@ -28,7 +28,7 @@ const PostContainer = () => {
 
     return(
         <div className="posts-container">
-            <h2>All posts</h2>
+            <h2>All postsssss</h2>
             
             {posts && posts.map(post => (
                 <Post key={post.id} content={post} />
